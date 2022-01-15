@@ -1,0 +1,9 @@
+
+
+-- bpftrace -e 'tracepoint:syscalls:sys_enter_open {printf("Kamal: %s %s \n",comm, str(arg->filename));}
+
+    Not working:
+    ERROR: /lib/modules/5.11.0-41-generic/build/include/linux/kconfig.h:7:10: fatal error: 'generated/autoconf.h' file not found
+
+
+
